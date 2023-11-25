@@ -96,3 +96,19 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.header-logo {
+  display: none;
+}
+.text-logo {
+  display: block;
+}
+
+@media (max-width: 960px) {
+  .header-logo {
+    display: block;
+  }
+  .text-logo {
+    display: none;
+  }
+}

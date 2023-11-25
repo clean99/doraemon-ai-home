@@ -11,10 +11,11 @@ export default function Home() {
       {/* <Button className='m-2 rounded-full dark:text-white' variant="outline" size="icon" onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>{
         theme === "dark" ? <CiDark /> : <CiLight />
       }</Button> */}
+      <Image className="mb-4 header-logo" src="/logo.png" alt="logo" width={64} height={64} />
      <h1 className="text-5xl font-bold mb-4" >
         Next Generation
         <div className="flex items-center text-blue-600">
-          Doraemon AI <Image className="ml-4" src="/logo.png" alt="logo" width={64} height={64} />
+          Doraemon AI <Image className="ml-4 text-logo" src="/logo.png" alt="logo" width={64} height={64} />
         </div>
      </h1>
       <p className="text-xs text-center text-gray-500">
