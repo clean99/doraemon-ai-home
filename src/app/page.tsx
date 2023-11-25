@@ -31,7 +31,7 @@ export default function Home() {
           Github <IoLogoGithub className="ml-1" />
         </Button>
         <Button className='m-2' variant="outline" size="sm">
-          Careers <FaExternalLinkAlt className="ml-1" />
+          Career <FaExternalLinkAlt className="ml-1" />
         </Button>
       </div>
     </main>
