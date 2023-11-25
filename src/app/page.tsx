@@ -7,7 +7,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-12 ">
+    <main className="flex min-h-screen flex-col items-center justify-center p-12 w-full">
       {/* <Button className='m-2 rounded-full dark:text-white' variant="outline" size="icon" onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>{
         theme === "dark" ? <CiDark /> : <CiLight />
       }</Button> */}

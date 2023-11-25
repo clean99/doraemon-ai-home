@@ -7,6 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Doraemon AI',
   description: 'Next Generation of Trustworthy Real-Time AI-Powered Personalization and Recommendation Platform for eCommerce, FinTech, EdTech and Data-Driven SaaS.',
+  viewport: 'width=device-width, initial-scale=1',
 }
 
 export default function RootLayout({
