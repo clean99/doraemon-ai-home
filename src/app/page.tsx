@@ -21,16 +21,16 @@ export default function Home() {
         Doraemon AI is a next generation of trustworthy real-time AI-powered personalizationand recommendation platform for eCommerce, FinTech, EdTech and data-driven SaaS.
       </p>
       <div className="flex flex-wrap mt-4 justify-center">
-        <Button className='m-2' variant="outline" size="sm">
+        <Button className='m-2' variant="outline" size="sm" style={{ width: '96px' }}>
           Discord <IoLogoDiscord className="ml-1" />
         </Button>
-        <Button className='m-2' variant="outline" size="sm">
+        <Button className='m-2' variant="outline" size="sm" style={{ width: '96px' }}>
           Twitter <IoLogoTwitter className="ml-1" />
         </Button>
-        <Button className='m-2' variant="outline" size="sm">
+        <Button className='m-2' variant="outline" size="sm" style={{ width: '96px' }}>
           Github <IoLogoGithub className="ml-1" />
         </Button>
-        <Button className='m-2' variant="outline" size="sm">
+        <Button className='m-2' variant="outline" size="sm" style={{ width: '96px' }}>
           Career <FaExternalLinkAlt className="ml-1" />
         </Button>
       </div>
